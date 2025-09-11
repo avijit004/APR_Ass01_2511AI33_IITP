@@ -52,10 +52,15 @@ jupyter notebook main.ipynb
 ## 🧰 Project Structure
 
 customer-churn-prediction/
+
 ├── main.ipynb # Jupyter notebook (code & analysis)
+
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Dataset
+
 ├── requirements.txt # Dependencies
+
 ├── screenshots/ # Output screenshots
+
 └── README.md # This file!
 
 
