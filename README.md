@@ -52,36 +52,35 @@ jupyter notebook main.ipynb
 🧰 Project Structure
 customer-churn-prediction/
 ├── main.ipynb                 # Jupyter notebook with code & analysis
+
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dataset
+
 ├── requirements.txt            # Dependencies
+
 ├── screenshots/                # Output screenshots
+
 └── README.md                   # Project README
 
+
+
 📇 Dataset
-
 Source: Kaggle: Telco Customer Churn
-
 Rows: 7,043
-
 Features: Demographics, account info, service usage, and Churn (target variable)
 
+
+
 ⚡ Workflow
+1.Load dataset & libraries
+2.Explore and visualize churn patterns (gender, contract type, payment methods, etc.)
+3.Handle missing values (e.g., TotalCharges) and outliers
+4.Encode categorical variables, scale numeric features
+5.Train & test split for model building
+6.Logistic Regression model training
+7.Evaluate performance with multiple metrics
+8.Visualize confusion matrix & ROC curve
 
-Load dataset & libraries
 
-Explore and visualize churn patterns (gender, contract type, payment methods, etc.)
-
-Handle missing values (e.g., TotalCharges) and outliers
-
-Encode categorical variables, scale numeric features
-
-Train & test split for model building
-
-Logistic Regression model training
-
-Evaluate performance with multiple metrics
-
-Visualize confusion matrix & ROC curve
 
 📊 Results
 | Metric    | Value |
@@ -91,26 +90,23 @@ Visualize confusion matrix & ROC curve
 | Recall    | 0.65  |
 | F1-Score  | 0.68  |
 
+
+
 ✔️ Insights:
-
-~26.6% of customers churned
-
-Customers with Month-to-Month contracts & Electronic Check payments churned the most
-
-Customers without partners/dependents or without online security/tech support showed higher churn
-
-High monthly charges correlated with higher churn probability
+~26.6% of customers churned.
+Customers with Month-to-Month contracts & Electronic Check payments churned the most.
+Customers without partners/dependents or without online security/tech support showed higher churn.
+High monthly charges correlated with higher churn probability.
 
 🛠️ Requirements
-
-Python 3.x
-
+Python 3
 pandas, numpy, matplotlib, seaborn, scikit-learn
-
 plotly, missingno
 
 Install all dependencies with:
 pip install -r requirements.txt
+
+
 🎓 References
 
 scikit-learn: Logistic Regression
@@ -118,9 +114,5 @@ scikit-learn: Logistic Regression
 Kaggle: Telco Customer Churn Dataset
 
 🙏 Acknowledgements
-
 Dataset by Ahmed Gaitani
-
 Inspired by IBM sample datasets and open-source churn prediction work
-📈 GitHub Stats
-<p align="center"> <a href="https://github.com/YourUsername"> <img src="https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=radical" alt="GitHub Stats" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&theme=radical" alt="Top Languages" /> </a> </p>
