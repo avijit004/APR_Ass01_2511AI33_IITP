@@ -34,7 +34,6 @@
 </p>
 
 ---
-
 ## 🚀 Quick Start
 
 ```bash
@@ -47,6 +46,9 @@ pip install -r requirements.txt
 
 # 3️⃣ Launch Jupyter Notebook
 jupyter notebook main.ipynb
+```
+
+
 🧰 Project Structure
 customer-churn-prediction/
 ├── main.ipynb                 # Jupyter notebook with code & analysis
