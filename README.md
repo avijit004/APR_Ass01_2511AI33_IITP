@@ -29,7 +29,7 @@
 ## ✨ Dataset
 
 <p align="center">
-  <img alt="Dataset Preview" src="screenshots/matrix.png" width="350">
+  <img alt="Dataset Preview" src="Screenshots/matrix.png" width="350">
 </p>
 
 ---
