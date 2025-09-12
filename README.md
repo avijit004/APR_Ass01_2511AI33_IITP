@@ -9,125 +9,116 @@
 <h1 align="center">📉 Customer Churn Prediction | Telco Dataset</h1>
 
 <p align="center">
-  <b>Predicting customer loyalty using machine learning.</b><br>
-  <i>Logistic Regression | Data preprocessing | Model interpretation | Interactive visualizations</i>
+  <b>Predicting customer churn using machine learning.</b><br>
+  <i>Logistic Regression | Data Preprocessing | EDA | Model Evaluation | Visualizations</i>
 </p>
 
 ---
 
 ## 🔥 Key Features
 
-- 📊 Exploratory Data Analysis (EDA) and feature visualization
-- 🏗️ Advanced data cleaning and preprocessing
-- 🤖 Logistic Regression for churn classification
-- 🎯 Performance evaluation (accuracy, precision, recall, F1-score, ROC-AUC)
-- 📈 Feature importance analysis
-- 📂 Jupyter notebook with commented code and result screenshots
+- 📊 Exploratory Data Analysis (EDA) with interactive plots  
+- 🧹 Advanced data cleaning and preprocessing (handling missing values, encoding, scaling)  
+- 🤖 Logistic Regression for churn classification  
+- 🎯 Model evaluation (Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix)  
+- 📈 Feature correlation & importance analysis  
+- 📂 Jupyter notebook with step-by-step explanations  
 
 ---
 
 ## ✨ Screenshots
 
 <p align="center">
-  <img alt="Churn Count Plot" src="https://github.com/YourUsername/customer-churn-prediction/raw/main/screenshots/churn-count.png" width="350">
-  <img alt="Classification Report" src="https://github.com/YourUsername/customer-churn-prediction/raw/main/screenshots/classification-report.png" width="350">
+  <img alt="Churn Count Plot" src="screenshots/churn-count.png" width="350">
+  <img alt="Classification Report" src="screenshots/classification-report.png" width="350">
 </p>
 
 ---
 
 ## 🚀 Quick Start
 
-1️⃣ Clone repo
+```bash
+# 1️⃣ Clone the repository
 git clone https://github.com/YourUsername/customer-churn-prediction.git
+cd customer-churn-prediction
 
-2️⃣ Install requirements
+# 2️⃣ Install dependencies
 pip install -r requirements.txt
 
-3️⃣ Launch Jupyter and start analyzing!
+# 3️⃣ Launch Jupyter Notebook
 jupyter notebook main.ipynb
-
-
----
-
-## 🧰 Project Structure
-
+🧰 Project Structure
 customer-churn-prediction/
+├── main.ipynb                 # Jupyter notebook with code & analysis
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dataset
+├── requirements.txt            # Dependencies
+├── screenshots/                # Output screenshots
+└── README.md                   # Project README
 
-├── main.ipynb # Jupyter notebook (code & analysis)
+📇 Dataset
 
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Dataset
+Source: Kaggle: Telco Customer Churn
 
-├── requirements.txt # Dependencies
+Rows: 7,043
 
-├── screenshots/ # Output screenshots
+Features: Demographics, account info, service usage, and Churn (target variable)
 
-└── README.md # This file!
+⚡ Workflow
 
+Load dataset & libraries
 
----
+Explore and visualize churn patterns (gender, contract type, payment methods, etc.)
 
-## 📇 Dataset
+Handle missing values (e.g., TotalCharges) and outliers
 
-- **Source:** [Kaggle: Telco Customer Churn](https://www.kaggle.com/datasets/ahmedgaitani/customer-churn-prediction-dataset)
-- **Rows:** 7,043
-- **Features:** Demographics, account info, service usage, and `Churn` (target)
+Encode categorical variables, scale numeric features
 
----
+Train & test split for model building
 
-## ⚡ Usage Highlights
+Logistic Regression model training
 
-- Clean and preprocess the Telco churn data
-- Encode categorical variables and scale numerical features
-- Train a logistic regression model
-- Evaluate model performance and visualize results
-- Interpret which features are most influential in predicting churn
+Evaluate performance with multiple metrics
 
----
+Visualize confusion matrix & ROC curve
 
-## 📊 Example Results
+📊 Results
+| Metric    | Value |
+| --------- | ----- |
+| Accuracy  | 0.81  |
+| Precision | 0.72  |
+| Recall    | 0.65  |
+| F1-Score  | 0.68  |
 
-| Metric     | Value (example)   |
-|------------|------------------|
-| Accuracy   | 0.81             |
-| Precision  | 0.72             |
-| Recall     | 0.65             |
-| F1-Score   | 0.68             |
+✔️ Insights:
 
----
+~26.6% of customers churned
 
-## 🛠️ Requirements
+Customers with Month-to-Month contracts & Electronic Check payments churned the most
 
-- Python 3.x
-- pandas, numpy, matplotlib, seaborn, scikit-learn, plotly, missingno
+Customers without partners/dependents or without online security/tech support showed higher churn
 
-You may install all with: pip install -r requirements.txt
+High monthly charges correlated with higher churn probability
 
+🛠️ Requirements
 
----
+Python 3.x
 
-## 🎓 References
+pandas, numpy, matplotlib, seaborn, scikit-learn
 
-- [scikit-learn: Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-- [Kaggle: Telco Customer Churn Dataset](https://www.kaggle.com/datasets/ahmedgaitani/customer-churn-prediction-dataset)
+plotly, missingno
 
----
+Install all dependencies with:
+pip install -r requirements.txt
+🎓 References
 
-## 🙏 Acknowledgements
+scikit-learn: Logistic Regression
 
-- Dataset by [Ahmed Gaitani](https://www.kaggle.com/ahmedgaitani)
-- Inspired by IBM Sample Data and open-source churn prediction notebooks
+Kaggle: Telco Customer Churn Dataset
 
----
+🙏 Acknowledgements
 
-## 📈 GitHub Stats
+Dataset by Ahmed Gaitani
 
-<p align="center">
-  <a href="https://github.com/YourUsername">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=radical" alt="GitHub Stats" />
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&theme=radical" alt="Top Languages" />
-  </a>
-</p>
-
----
-
-> Made with ❤️ for data science and real-world insights.
+Inspired by IBM sample datasets and open-source churn prediction work
+📈 GitHub Stats
+<p align="center"> <a href="https://github.com/YourUsername"> <img src="https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=radical" alt="GitHub Stats" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourUsername&layout=compact&theme=radical" alt="Top Languages" /> </a> </p>
