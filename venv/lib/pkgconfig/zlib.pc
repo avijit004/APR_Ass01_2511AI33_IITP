@@ -1,0 +1,13 @@
+prefix=/Users/avijit/Desktop/APR_assignment01/venv
+exec_prefix=/Users/avijit/Desktop/APR_assignment01/venv
+libdir=/Users/avijit/Desktop/APR_assignment01/venv/lib
+sharedlibdir=/Users/avijit/Desktop/APR_assignment01/venv/lib
+includedir=/Users/avijit/Desktop/APR_assignment01/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
