@@ -114,4 +114,7 @@ Kaggle: Telco Customer Churn Dataset
 
 🙏 Acknowledgements
 Dataset by Ahmed Gaitani
+
+Dr. Chandranath Adak, Assistant Professor, Indian Institute of Technology (IIT) Patna
+
 Inspired by IBM sample datasets and open-source churn prediction work
