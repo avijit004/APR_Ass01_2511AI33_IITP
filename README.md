@@ -26,11 +26,10 @@
 
 ---
 
-## ✨ Screenshots
+## ✨ Dataset
 
 <p align="center">
-  <img alt="Churn Count Plot" src="screenshots/churn-count.png" width="350">
-  <img alt="Classification Report" src="screenshots/classification-report.png" width="350">
+  <img alt="Dataset Preview" src="screenshots/matrix.png" width="350">
 </p>
 
 ---
