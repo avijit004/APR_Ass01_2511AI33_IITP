@@ -1,9 +1,9 @@
 <!-- PROJECT SHIELD BADGES -->
-![Stars](https://img.shields.io/github/stars/YourUsername/customer-churn-prediction?style=social)
-![Forks](https://img.shields.io/github/forks/YourUsername/customer-churn-prediction?style=social)
-![Issues](https://img.shields.io/github/issues/YourUsername/customer-churn-prediction)
-![Last Commit](https://img.shields.io/github/last-commit/YourUsername/customer-churn-prediction)
-![License](https://img.shields.io/github/license/YourUsername/customer-churn-prediction)
+![Stars](https://img.shields.io/github/stars/avijit004/customer-churn-prediction?style=social)
+![Forks](https://img.shields.io/github/forks/avijit004/customer-churn-prediction?style=social)
+![Issues](https://img.shields.io/github/issues/avijit004/customer-churn-prediction)
+![Last Commit](https://img.shields.io/github/last-commit/avijit004/customer-churn-prediction)
+![License](https://img.shields.io/github/license/avijit004/customer-churn-prediction)
 
 <!-- PROJECT TITLE -->
 <h1 align="center">📉 Customer Churn Prediction | Telco Dataset</h1>
@@ -38,7 +38,7 @@
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/YourUsername/customer-churn-prediction.git
+git clone https://github.com/avijit004/customer-churn-prediction.git
 cd customer-churn-prediction
 
 # 2️⃣ Install dependencies
