@@ -1,9 +1,9 @@
 <!-- PROJECT SHIELD BADGES -->
-![Stars](https://img.shields.io/github/stars/avijit004/customer-churn-prediction?style=social)
-![Forks](https://img.shields.io/github/forks/avijit004/customer-churn-prediction?style=social)
-![Issues](https://img.shields.io/github/issues/avijit004/customer-churn-prediction)
-![Last Commit](https://img.shields.io/github/last-commit/avijit004/customer-churn-prediction)
-![License](https://img.shields.io/github/license/avijit004/customer-churn-prediction)
+![Stars](https://img.shields.io/github/stars/avijit004/APR_Ass01_2511AI33_IITP?style=social)
+![Forks](https://img.shields.io/github/forks/avijit004/APR_Ass01_2511AI33_IITP?style=social)
+![Issues](https://img.shields.io/github/issues/avijit004/APR_Ass01_2511AI33_IITP)
+![Last Commit](https://img.shields.io/github/last-commit/avijit004/APR_Ass01_2511AI33_IITP)
+![License](https://img.shields.io/github/license/avijit004/APR_Ass01_2511AI33_IITP)
 
 <!-- PROJECT TITLE -->
 <h1 align="center">📉 Customer Churn Prediction | Telco Dataset</h1>
@@ -37,8 +37,8 @@
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/avijit004/customer-churn-prediction.git
-cd customer-churn-prediction
+git clone https://github.com/avijit004/APR_Ass01_2511AI33_IITP
+cd APR_Ass01_2511AI33_IITP
 
 # 2️⃣ Install dependencies
 pip install -r requirements.txt
@@ -49,8 +49,8 @@ jupyter notebook main.ipynb
 
 
 🧰 Project Structure
-customer-churn-prediction/
-├── main.ipynb                 # Jupyter notebook with code & analysis
+APR_Ass01_2511AI33_IITP/
+├── customer-churn-prediction.ipynb               # Jupyter notebook with code & analysis
 
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dataset
 
