@@ -48,7 +48,7 @@ jupyter notebook main.ipynb
 ```
 
 
-🧰 Project Structure
+🧰 Project Structure:
 APR_Ass01_2511AI33_IITP/
 
 
@@ -65,21 +65,25 @@ APR_Ass01_2511AI33_IITP/
 
 
 📇 Dataset
+
 Source: Kaggle: Telco Customer Churn
+
 Rows: 7,043
+
 Features: Demographics, account info, service usage, and Churn (target variable)
 
 
 
-⚡ Workflow
-1.Load dataset & libraries
-2.Explore and visualize churn patterns (gender, contract type, payment methods, etc.)
-3.Handle missing values (e.g., TotalCharges) and outliers
-4.Encode categorical variables, scale numeric features
-5.Train & test split for model building
-6.Logistic Regression model training
-7.Evaluate performance with multiple metrics
-8.Visualize confusion matrix & ROC curve
+⚡ Workflow:
+
+1.Load dataset & libraries 
+2.Explore and visualize churn patterns (gender, contract type, payment methods, etc.) 
+3.Handle missing values (e.g., TotalCharges) and outliers 
+4.Encode categorical variables, scale numeric features 
+5.Train & test split for model building 
+6.Logistic Regression model training 
+7.Evaluate performance with multiple metrics 
+8.Visualize confusion matrix & ROC curve 
 
 
 
