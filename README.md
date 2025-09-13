@@ -50,6 +50,8 @@ jupyter notebook main.ipynb
 
 🧰 Project Structure
 APR_Ass01_2511AI33_IITP/
+
+
 ├── customer-churn-prediction.ipynb               # Jupyter notebook with code & analysis
 
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dataset
